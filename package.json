@@ -2,18 +2,17 @@
   "name": "calcom-monorepo",
   "version": "0.0.0",
   "private": true,
-  "workspaces": [
-    "apps/*",
-    "apps/api/*",
-    "packages/*",
-    "packages/embeds/*",
-    "packages/features/*",
-    "packages/app-store/*",
-    "packages/app-store/ee/*",
-    "packages/platform/*",
-    "packages/platform/examples/base",
-    "example-apps/*"
-  ],
+"workspaces": [
+  "apps/web",
+  "apps/api/*",
+  "packages/*",
+  "packages/embeds/*",
+  "packages/features/*",
+  "packages/app-store/*",
+  "packages/app-store/ee/*",
+  "packages/platform/*",
+  "packages/platform/examples/base"
+],
   "scripts": {
     "app-store-cli": "yarn workspace @calcom/app-store-cli",
     "app-store:build": "yarn app-store-cli build",
